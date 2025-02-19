@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <nav class="bg-blue-600 p-4 text-white">
+        <div class="container mx-auto flex justify-between">
+            <a href="#" class="text-xl font-bold">My Portfolio</a>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20">
+        <h1 class="text-4xl font-bold">Hi, I'm Darshan Kanzariya</h1>
+        <p class="mt-4 text-xl">A passionate web developer.</p>
+        <a href="#projects" class="mt-6 inline-block bg-blue-600 text-white px-6 py-2 rounded">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold">About Me</h2>
+        <p class="mt-4 text-gray-700">I'm a web developer with 3+ years of experience in building responsive and user-friendly websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold">Projects</h2>
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="text-xl font-bold">Project 1</h3>
+                <p class="mt-2 text-gray-700">A responsive e-commerce website.</p>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="text-xl font-bold">Project 2</h3>
+                <p class="mt-2 text-gray-700">A blog platform with user authentication.</p>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="text-xl font-bold">Project 3</h3>
+                <p class="mt-2 text-gray-700">A portfolio website using Tailwind CSS.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold">Contact Me</h2>
+        <form class="mt-6">
+            <input type="text" placeholder="Your Name" class="w-full p-2 mb-4 border rounded">
+            <input type="email" placeholder="Your Email" class="w-full p-2 mb-4 border rounded">
+            <textarea placeholder="Your Message" class="w-full p-2 mb-4 border rounded"></textarea>
+            <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white text-center py-4">
+        <p>&copy; 2023 Darshan Kanzariya. All rights reserved.</p>
+    </footer>
+</body>
+</html>
